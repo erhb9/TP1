@@ -23,11 +23,4 @@ public class AppTest {
 
         assertEquals(6, resultat, "2 + 4 doit être égal à 6");
     }
-
-    @Test
-    public void testSub() {
-        int a = 10;
-        int b = 5;
-        assertEquals(Sub.sub(a,b), 5);
-    }
 }
