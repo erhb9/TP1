@@ -1,2 +1,4 @@
 target
 *.class
+target/test-classes/tp1/app/AppTest.class
+target/test-classes/tp1/app/AppTest.class
