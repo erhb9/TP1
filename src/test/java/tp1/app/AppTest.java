@@ -1,7 +1,7 @@
 package tp1.app;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
-
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue; 
 import org.junit.jupiter.api.Test;
 
 /**
@@ -15,5 +15,12 @@ public class AppTest {
     @Test
     public void shouldAnswerWithTrue() {
         assertTrue(true);
+    }
+
+    @Test
+    public void testSub() {
+        int a = 10;
+        int b = 5;
+        assertEquals(Sub.sub(a,b), 5);
     }
 }
