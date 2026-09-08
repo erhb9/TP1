@@ -1,5 +1,6 @@
 package tp1.app;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
@@ -13,7 +14,13 @@ public class AppTest {
      * Rigorous Test :-)
      */
     @Test
-    public void shouldAnswerWithTrue() {
-        assertTrue(true);
+    public void TestFeatureAdd() {
+
+        int a = 4;
+        int b = 2;
+
+        int resultat = new Add().add(a, b);
+
+        assertEquals(6, resultat, "2 + 4 doit être égal à 6");
     }
 }
